@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C98B4DCA27D160770019B1FD /* QEMUGadgetDevice.c in Sources */ = {isa = PBXBuildFile; fileRef = C98B4DC927D160770019B1FD /* QEMUGadgetDevice.c */; };
+		C98B4DD327D1615B0019B1FD /* QEMUEmulatedHostController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98B4DD127D1615B0019B1FD /* QEMUEmulatedHostController.cpp */; };
+		C98B4DD427D1615B0019B1FD /* QEMUEmulatedHostController.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C98B4DD227D1615B0019B1FD /* QEMUEmulatedHostController.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C98B4DC627D160770019B1FD /* QEMUGadgetDevice.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QEMUGadgetDevice.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98B4DC927D160770019B1FD /* QEMUGadgetDevice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QEMUGadgetDevice.c; sourceTree = "<group>"; };
 		C98B4DCB27D160770019B1FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98B4DD127D1615B0019B1FD /* QEMUEmulatedHostController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QEMUEmulatedHostController.cpp; sourceTree = "<group>"; };
+		C98B4DD227D1615B0019B1FD /* QEMUEmulatedHostController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QEMUEmulatedHostController.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				C98B4DC927D160770019B1FD /* QEMUGadgetDevice.c */,
 				C98B4DCB27D160770019B1FD /* Info.plist */,
+				C98B4DD127D1615B0019B1FD /* QEMUEmulatedHostController.cpp */,
+				C98B4DD227D1615B0019B1FD /* QEMUEmulatedHostController.hpp */,
 			);
 			path = QEMUGadgetDevice;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98B4DD427D1615B0019B1FD /* QEMUEmulatedHostController.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98B4DD327D1615B0019B1FD /* QEMUEmulatedHostController.cpp in Sources */,
 				C98B4DCA27D160770019B1FD /* QEMUGadgetDevice.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
